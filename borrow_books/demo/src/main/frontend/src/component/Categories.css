@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+.services .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  gap: 2rem;
+}
+
+.services .box-container .box {
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0.5rem 0.5rem 0 rgba(22, 160, 133, 0.2);
+  border: 0.2rem solid #16a085;
+  padding: 2.5rem;
+}
+
+.services .box-container .box i {
+  color: #16a085;
+  font-size: 5rem;
+  padding-bottom: 0.5rem;
+}
+
+.Sh-card {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.041), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.services .box-container .box h3 {
+  color: #444;
+  font-size: 2.5rem;
+  padding: 1rem 0;
+}
+
+.services .box-container .box p {
+  color: #777;
+  font-size: 1.4rem;
+  line-height: 2;
+}
+
+
+/* 
+ */
+ .btn-b {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    /* border: 1px solid #f2f7ed; */
+  
+    border-color:#f2f7ed ;
+    /* border-radius: 1px; */
+    box-shadow: 0.1rem 0.1rem 0 rgba(73, 69, 69, 0.2);
+    /* color: #139279; */
+    cursor: pointer;
+    color: #212529;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 5px;
+    border-radius: .25rem;
+  }
+  
+  .btn-b:hover {
+    background:#777;
+    color: #fff;
+  }
